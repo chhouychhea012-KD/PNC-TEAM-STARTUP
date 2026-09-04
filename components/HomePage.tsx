@@ -21,8 +21,6 @@ import BugReportRoundedIcon from '@mui/icons-material/BugReportRounded';
 import RouteRoundedIcon from '@mui/icons-material/RouteRounded';
 import RouterRoundedIcon from '@mui/icons-material/RouterRounded';
 import Link from 'next/link';
-import { useState } from 'react';
-import IntroSplash from './IntroSplash';
 import { Reveal } from './Motion';
 import TeamShowcase from './TeamShowcase';
 import TechnologyTicker from './TechnologyTicker';
@@ -51,7 +49,6 @@ const steps = [
 ];
 
 export default function HomePage() {
-  const [introDone, setIntroDone] = useState(false);
   const { locale } = useLocale();
   const km = locale === 'km';
   const localizedExpertise = km
@@ -74,8 +71,6 @@ export default function HomePage() {
 
   return (
     <>
-      {!introDone && <IntroSplash onComplete={() => setIntroDone(true)} />}
-
       <Box component="section" sx={{ pt: { xs: 5, md: 8 }, pb: { xs: 7, md: 10 }, bgcolor: 'background.default', overflow: 'hidden' }}>
         <Container maxWidth="xl">
           <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', lg: 'minmax(0, 1.08fr) minmax(460px, 0.92fr)' }, gap: { xs: 5, lg: 7 }, alignItems: 'center' }}>
