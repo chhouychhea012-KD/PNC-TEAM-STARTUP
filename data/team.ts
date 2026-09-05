@@ -353,8 +353,8 @@ export const teamMembers: TeamMember[] = [
     softSkills: ['Teamwork & Collaboration', 'Time & Task Management', 'Problem Solving & Critical Thinking', 'Responsibility & Ownership', 'Honesty & Integrity', 'Adaptability & Fast Learner', 'Effective Communication', 'Attention to Detail', 'Work Under Pressure & Deadline Driven'],
     skills: [
       { label: 'Web & Frontend', items: ['HTML5', 'CSS3', 'JavaScript', 'Vue.js', 'React.js', 'Tailwind CSS'] },
-      { label: 'Backend & Data', items: ['Node.js', 'PHP', 'Laravel', 'Java', 'Spring Boot', 'REST API', 'JasperReports', 'PostgreSQL', 'MySQL', 'Firebase', 'TypeScript OOP', 'Python Algorithms', 'Power BI'] },
-      { label: 'Tools & DevOps', items: ['Figma', 'Git', 'GitHub', 'GitLab', 'IntelliJ IDEA', 'VS Code', 'Navicat', 'Jira', 'Swagger', 'AWS', 'Linux', 'Netlify', 'Vercel'] }
+      { label: 'Backend & Data', items: ['Node.js', 'PHP', 'Laravel', 'Java', 'Spring Boot', 'PostgreSQL', 'TypeScript OOP'] },
+      { label: 'Tools & DevOps', items: ['Git', 'GitHub', 'GitLab', 'IntelliJ IDEA', 'VS Code', 'Navicat', 'Netlify', 'Vercel'] }
     ],
     education: [
       { institution: 'BELTEI International University', degree: 'Bachelor’s Degree — Software Engineering', period: '2026 — Present'},
@@ -363,7 +363,7 @@ export const teamMembers: TeamMember[] = [
     ],
     experience: [
       {
-        role: 'IT Intern',
+        role: 'Information Technology',
         organization: 'Cambodia Airports',
         period: 'Sep 2025 — Dec 2025',
         bullets: [
