@@ -79,8 +79,9 @@ export const teamMembers: TeamMember[] = [
       { label: 'Cloud & Tools', items: ['Git', 'GitHub', 'Jira', 'Postman', 'AWS EC2', 'Linux', 'Cloudflare', 'Figma', 'Netlify', 'Vercel'] },
     ],
     education: [
-      { institution: 'Passerelles Numériques Cambodia (PNC)', degree: 'Associate Degree — Web Programming', period: '2024 — 2026' },
-      { institution: 'Pouk High School', degree: 'Bac II', period: '2020 — 2023' },
+      { institution: 'BELTEI International University (BIU)', degree: "Bachelor's Degree — Software Engineering", period: '2026 — Present · 3rd Year' },
+      { institution: 'Passerelles Numériques Cambodia (PNC)', degree: 'Associate Degree — Web Programming', period: '2024 — 2026 · Graduated' },
+      { institution: 'Pouk General and Technical High School', degree: 'Baccalaureate (Bac II) — High School Diploma', period: '2020 — 2023' },
     ],
     experience: [
       {
